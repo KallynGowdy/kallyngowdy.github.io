@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100|Open+Sans');
+
+body {
+  background: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  color: white;
+}
+
+.background {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -999;
+  overflow: hidden;
+}

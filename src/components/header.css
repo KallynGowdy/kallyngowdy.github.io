@@ -1,0 +1,40 @@
+
+.top-bar-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.top-bar {
+    height: 40px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 8px;
+    font-family: 'IBM Plex Sans', sans-serif;padding: 8px;
+}
+
+.top-bar-header {
+    font-size: 2em;
+}
+
+.top-bar-link {
+    margin: 0 8px;
+    display: inline-block;
+}
+
+.top-bar-link .active {
+    border-bottom: 1px solid rgba(0,150,0,1);
+}
+
+.top-bar-link a {
+    text-decoration: none;
+    color: white;
+}
+
+.top-bar-link a:visited {
+    color: white;
+}
+
+.top-bar-end {
+    float: right;
+}

@@ -59,7 +59,8 @@ class Layout extends React.Component {
           >
             <html lang="en" />
           </Helmet>
-          <img className="background" src={code} alt="Kal's immensely impressive code." />
+          {this.props.background ? <img className="background" src={code} alt="Kal's immensely impressive code." /> : ""}
+          <Header siteTitle={data.site.siteMetadata.title} />
           <div className="container">
             {this.props.children}
           </div>

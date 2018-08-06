@@ -3,9 +3,9 @@ import { Link } from 'gatsby'
 import posed from 'react-pose';
 import './header.css';
 
-const Header = ({ siteTitle }) => (
+const Header = ({ siteTitle, className }) => (
   <div className="top-bar-container">
-    <div className="top-bar">
+    <div className={`top-bar ${className || ''}`}>
       <h1 className="top-bar-header top-bar-link">
         <Link exact to="/" activeClassName="active">
           {siteTitle}

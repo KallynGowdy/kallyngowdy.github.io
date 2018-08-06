@@ -6,7 +6,7 @@ import './index.css';
 import './about.css';
 
 const IndexPage = () => (
-  <Layout background={false}>
+  <Layout background={false} headerClass="about">
     <div className="body-container about">
         <h1 className="header">About Me</h1>
         <div><em>2016</em></div>

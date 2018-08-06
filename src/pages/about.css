@@ -3,3 +3,7 @@
 .body-container.about {
     padding-top: 10vh;
 }
+
+.top-bar.about {
+    background-color: #3b3c3c;
+}

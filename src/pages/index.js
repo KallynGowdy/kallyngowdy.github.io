@@ -75,7 +75,7 @@ const IndexPage = () => (
         </li>
         <li><Blue>Certifications:</Blue>
           <ul>
-            <li><a target="_blank" href="https://www.youracclaim.com/badges/221decff-1bdb-4b4f-82f4-b3cb94b29688">Microsoft Certified Solutions Associate (MCSA)</a></li>
+            <li><a target="_blank" rel="noopener" href="https://www.youracclaim.com/badges/221decff-1bdb-4b4f-82f4-b3cb94b29688">Microsoft Certified Solutions Associate (MCSA)</a></li>
           </ul>
         </li>
       </ul>

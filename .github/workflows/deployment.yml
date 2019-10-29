@@ -23,7 +23,8 @@ jobs:
     - name: build and deploy
       uses: JamesIves/github-pages-deploy-action@master
       env:
-        ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BASE_BRANCH: develop # The branch the action should deploy from.
         BRANCH: master # The branch the action should deploy to.
         FOLDER: public # The folder the action should deploy.
